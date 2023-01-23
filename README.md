@@ -1,14 +1,7 @@
-Tech Phantoms : Josemon Baby, Grishma Kagde, Yash Sowani
+# Quickr File Sharing Application
 
-What The code does ?
 
-Creating a system that makes it easier to transfer a URL,
-text, or document from one device to another. There are 
-several other solutions such as Google Drive and other 
-cloud apps, but the main focus here is to eliminate the
-requirement for creating an account, downloading their 
-software, or maintaining sync for particular files or 
-folders.
+Created a system that makes it easier to transfer a URL, text, or document from one device to another. There are several other solutions such as Google Drive and other cloud apps, but the main focus here is to eliminate therequirement for creating an account, downloading their software, or maintaining sync for particular files or folders. A Spring Web Application using REST that could be launched as a website and accessed by both PCs and smartphones would eliminate needless time wastage. This web based application will not require registration, just upload the file and immediately after it is uploaded, a QR code is generated that can be scanned by a smartphone and a shortened URL is available that can be used in another PC to direct users to the resource's download landing page.
 
 How to Compile and run the code?
 
@@ -31,7 +24,10 @@ program running on the host operating system.
 Automatically viewing the dashboard of Kubernetes
 - minikube dashboard
 
+Future changes in mind:
 
-Video Link :
+- Encoding of the original download URL is done for shortening purposes. This encoding is done right now using very straightforward and thus lacks the complexity of an actual cryptographic algorithm like AES. This would lead to a highly secure encryption and decryption methodology for our URL shortener.
 
-https://drive.google.com/file/d/17x9Ns-y7Loy2si9e4oc2GMqCSeg5tWhx/view
+- Implementing React along with Springboot as that would help with the page redirects and refreshes impacting performance.
+
+
